@@ -1,10 +1,20 @@
 <template>
   <div id="app">
+    <house-header />
     <router-view />
+    <house-footer />
   </div>
 </template>
 
 <script>
-export default {};
+import HouseHeader from "@/components/HouseHeader.vue";
+import HouseFooter from "./components/HouseFooter.vue";
+
+export default {
+  components: {
+    HouseHeader,
+    HouseFooter,
+  },
+};
 </script>
 <style></style>
