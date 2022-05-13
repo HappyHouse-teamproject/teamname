@@ -12,8 +12,8 @@ const routes = [
     component: HouseIndex,
   },
   {
-    path: "/map",
-    name: "map",
+    path: "/apt",
+    name: "apt",
     component: HouseApt,
   },
 ];
