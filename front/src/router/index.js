@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HouseIndex from "../views/HouseIndex.vue";
-import HouseApt from "@/components/Apt/HouseApt.vue";
+import AptView from "@/views/AptView.vue";
 
 Vue.use(VueRouter);
 
@@ -14,7 +14,7 @@ const routes = [
   {
     path: "/apt",
     name: "apt",
-    component: HouseApt,
+    component: AptView,
   },
 ];
 
