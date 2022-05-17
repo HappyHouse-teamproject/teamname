@@ -2,7 +2,7 @@
   <div>
     <div id="logo">
       <p class="happyhouse">
-        <a href="/">HAPPYHOUSE</a>
+        <router-link :to="{ name: 'home' }">HAPPYHOUSE</router-link>
       </p>
     </div>
 
